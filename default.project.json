@@ -12,11 +12,17 @@
             },
             "Shared": {
                 "$path": "src/Shared"
+            },
+            "Assets": {
+                "$path": "assets"
             }
         },
         "ServerScriptService": {
             "Server": {
                 "$path": "src/Server"
+            },
+            "ServerPackages": {
+                "$path": "ServerPackages"
             }
         }
     }

@@ -5,10 +5,16 @@ registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
-Loader = "sleitnick/loader@2.0.0"
-Lapis = "nezuo/lapis@0.3.3"
-t = "osyrisrblx/t@3.1.1"
-Charm = "littensy/charm@0.6.2"
-Promise = "evaera/promise@4.0.0"
+Reflex = "littensy/reflex@4.3.1"
+Fusion = "elttob/fusion@0.3.0"
+Sift = "csqrl/sift@0.0.9"
 Remo = "littensy/remo@1.5.0"
-Vide = "centau/vide@0.2.0"
+Format = "kumarion/formatnumber@0.0.1"
+Component = "sleitnick/component@2.4.8"
+Loader = "sleitnick/loader@2.0.0"
+t = "osyrisrblx/t@3.1.1"
+
+
+[server-dependencies]
+ProfileService = "grilme99/profileservice@1.0.0"
+Cmdr = "evaera/cmdr@1.12.0"
